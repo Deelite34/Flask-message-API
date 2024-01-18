@@ -1,7 +1,7 @@
 # Flask message api
 Training project, that provides message API using flask-restful.
 
-Features:
+## Features:
 - Uses flask, SQLAlchemy, Docker, PostgreSQL, Celery
 - Uses marshmallow for serialization and deserialization of data, 
   alembic for database migrations, blueprints and application factory pattern
