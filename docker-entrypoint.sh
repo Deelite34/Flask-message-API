@@ -7,7 +7,6 @@ trap "{ exit 0; }" TERM INT
 
 umask 0000
 
-flask db migrate
 flask db upgrade
 
 exec flask --app app run --debug --port 5000 --host 0.0.0.0
