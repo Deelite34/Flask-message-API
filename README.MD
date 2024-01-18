@@ -17,14 +17,16 @@ Training project, that provides message API using flask-restful.
 1. Create .env file using example and set required values.
 2. Build and install the project
 ```
-    Docker compose build
-    Docker compose up
+Docker compose build
+Docker compose up
 ```
 
 ## Tests
-You can use command inside container to run the tests.
-`docker compose exec flask bash`
-`flask test`
+You can use custom shortcut command inside container to run the tests.
+```
+docker compose exec flask bash
+flask test
+```
 
 ## Endpoints
 ### /api/v1/account/
